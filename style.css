@@ -1,0 +1,29 @@
+p {
+  padding: 20px;
+  margin: 20px 10px;
+  background-color: #f1f1f1;
+}
+.p1 {
+  border-width: 1px 2px 3px 4px;
+  border-style: dashed solid dashed solid;
+  border-color: #c04 #c04 #c04 #c04; /* Rouge foncé*/
+}
+.p2 {
+  border-width: 1px 2px 3px 4px;
+  border-style: dashed solid;
+  border-color: #c04;
+}
+.p3 {
+  border-top: 1px dashed #c04;
+  border-right: 2px solid #c04;
+  border-bottom: 3px dashed #c04;
+  border-left: 4px solid #c04;
+}
+.p4 {
+  border-left-width: 5px;
+  border-left-style: solid;
+  border-left-color: #c04;
+}
+.p5 {
+  border-bottom: 2px solid #c04;
+}
